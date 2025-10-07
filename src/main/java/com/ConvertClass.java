@@ -10,4 +10,9 @@ public class ConvertClass {
         System.out.println(" value of temperature in fahrenheit:" + fahrenheit);
         return fahrenheit;
     }
+
+    public static double FahrenheitToCelsius(double F) {
+        return 0;
+    }
+
 }
