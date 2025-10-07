@@ -10,4 +10,14 @@ public class ConvertClass {
         System.out.println(" value of temperature in fahrenheit:" + fahrenheit);
         return fahrenheit;
     }
+    public static double FahrenheitToCelsius(double F) {
+        // initialising
+        double celsius = 0.0;
+
+        // formula for conversion
+        celsius = (F - 32) / 1.8;
+        System.out.println(" value of temperature in Celsius:" + celsius);
+        return celsius;
+    }
+
 }
